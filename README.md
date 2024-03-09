@@ -7,20 +7,11 @@ it on the Latin word fractus which means "broken" or "fractured".
 A fractal is an abstract mathematical object, like a curve or a surface, which pattern
 remains the same at every scale.
 
-Koch snowflake
-
-Even though a fractal is, by definition, an infinite pattern and cannot be measured, the Koch snowflake lets us see that even though the perimeter of a fractal is infinite, the area is not. As you zoom into the edges of the snowflake, you would find that there are ever new emergence of the pattern, but the size of the snowflake itself doesn’t change.
-
-![image](https://github.com/Simpli-Code/fract-ol/assets/74283859/a0446cd7-79b6-4644-8a8b-ee9ec182916e)
+Various natural phenomena – like the romanesco cabbage – have some fractal features.
 
 ![image](https://github.com/Simpli-Code/fract-ol/assets/74283859/a3765201-a2c5-4a07-95aa-5751f4e58c00)
 
-
-This kind of fractal is commonly found in nature when we observe coastlines. You can’t really get an exact measurement of the land mass on Earth because the edges are not smooth, they are rough and variable, the Koch snowflake is a way of showing how the infinite irregularities can still be contained within an approximation of the whole.
-
-What are some fractals that you have observed in nature? Have you ever seen fractals in art?
-
-Now, it’s your turn to generate some magnificent fractals!
+This kind of fractal is commonly found in nature. What are some fractals that you have observed in nature? Have you ever seen fractals in art?
 
 # 🛠️ Usage
 Requirements
@@ -39,7 +30,9 @@ Execute either julia or mandelbrot
 $ ./fractol julia
 ```
 
-Execute a specific julia set pass a valid julia set parameter
+Execute a specific julia set by passing a set as parameter for more julia set see the link
+
+https://en.wikipedia.org/wiki/Julia_set
 
 ```
 $ ./fractol julia -0.4 0.6
