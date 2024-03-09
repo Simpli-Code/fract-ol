@@ -30,12 +30,12 @@ Execute either julia or mandelbrot
 $ ./fractol julia
 ```
 
-Execute a specific julia set by passing a set as parameter for more julia set see the link
+Execute a specific julia set by passing a set ( c = -0.835 0.2321i ) as parameter for more julia set see the link below
 
 https://en.wikipedia.org/wiki/Julia_set
 
 ```
-$ ./fractol julia -0.4 0.6
+$ ./fractol julia -0.835 0.2321
 ```
 
 # 📑 Index
