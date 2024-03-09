@@ -1,5 +1,5 @@
 # fract-ol
-This project is about creating graphically beautiful fractals be using the MiniLibX! This library was
+This project is about creating graphically beautiful fractals by using the MiniLibX! This library was
 developed internally at ecole 42 and includes basic necessary tools to open a window, create images
 and deal with keyboard and mouse events.
 
