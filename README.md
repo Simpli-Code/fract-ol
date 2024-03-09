@@ -8,7 +8,10 @@ A fractal is an abstract mathematical object, like a curve or a surface, which p
 remains the same at every scale.
 
 Koch snowflake
+
 Even though a fractal is, by definition, an infinite pattern and cannot be measured, the Koch snowflake lets us see that even though the perimeter of a fractal is infinite, the area is not. As you zoom into the edges of the snowflake, you would find that there are ever new emergence of the pattern, but the size of the snowflake itself doesn’t change.
+
+![image](https://github.com/Simpli-Code/fract-ol/assets/74283859/a0446cd7-79b6-4644-8a8b-ee9ec182916e)
 
 
 This kind of fractal is commonly found in nature when we observe coastlines. You can’t really get an exact measurement of the land mass on Earth because the edges are not smooth, they are rough and variable, the Koch snowflake is a way of showing how the infinite irregularities can still be contained within an approximation of the whole.
