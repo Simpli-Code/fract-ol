@@ -26,7 +26,7 @@ Compiling the program
 $ make
 ```
 
-Execute either julia or mandelbrot
+Execute either julia set or mandelbrot set
 
 ```
 $ ./fractol julia
