@@ -13,6 +13,8 @@ Even though a fractal is, by definition, an infinite pattern and cannot be measu
 
 ![image](https://github.com/Simpli-Code/fract-ol/assets/74283859/a0446cd7-79b6-4644-8a8b-ee9ec182916e)
 
+![image](https://github.com/Simpli-Code/fract-ol/assets/74283859/a3765201-a2c5-4a07-95aa-5751f4e58c00)
+
 
 This kind of fractal is commonly found in nature when we observe coastlines. You can’t really get an exact measurement of the land mass on Earth because the edges are not smooth, they are rough and variable, the Koch snowflake is a way of showing how the infinite irregularities can still be contained within an approximation of the whole.
 
