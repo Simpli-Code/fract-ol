@@ -19,3 +19,36 @@ This kind of fractal is commonly found in nature when we observe coastlines. You
 What are some fractals that you have observed in nature? Have you ever seen fractals in art?
 
 Now, it’s your turn to generate some magnificent fractals!
+
+# 🛠️ Usage
+Requirements
+
+This program is written in C language for Linux distributions and thus needs the clang compiler and some standard C libraries to run.
+
+Compiling the program
+
+```
+$ make
+```
+
+Execute either julia or mandelbrot
+
+```
+$ ./fractol julia
+```
+
+Execute a specific julia set pass a valid julia set parameter
+
+```
+$ ./fractol julia -0.4 0.6
+```
+
+# 📑 Index
+
+@root
+
+📁 inc: contains the program's headers.
+
+📁 src: contains the source code of the program.
+
+Makefile - contains instructions for compiling the program and testing it.
