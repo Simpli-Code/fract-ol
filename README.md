@@ -10,3 +10,5 @@ remains the same at every scale.
 Various natural phenomena – like the romanesco cabbage – have some fractal features.
 
 ![image](https://github.com/Simpli-Code/fract-ol/assets/74283859/69458dc5-31ee-4345-90ac-8adaecede851)
+
+Now, it’s your turn to generate some magnificent fractals!
