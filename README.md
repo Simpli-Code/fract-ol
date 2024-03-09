@@ -33,7 +33,13 @@ Execute either julia set or mandelbrot set
 $ ./fractol julia
 ```
 
-Execute a specific julia set by passing a set ( c = -0.835 0.2321i ) as parameter for more julia set see the link below
+or
+
+```
+$ ./fractol mandelbrot
+```
+
+Execute a specific julia set by passing a set ( c = -0.835 0.2321i ) as parameter for more julia sets see the link below
 
 https://en.wikipedia.org/wiki/Julia_set
 
