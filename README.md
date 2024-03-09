@@ -1,5 +1,7 @@
 # fract-ol
-This project is about creating graphically beautiful fractals
+This project is about creating graphically beautiful fractals be using the MiniLibX! This library was
+developed internally at ecole 42 and includes basic necessary tools to open a window, create images
+and deal with keyboard and mouse events.
 
 The term fractal was first used by mathematician Benoit Mandelbrot in 1974. He based
 it on the Latin word fractus which means "broken" or "fractured".
