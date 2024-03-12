@@ -17,7 +17,7 @@ Various natural phenomena – like the romanesco cabbage – have some fractal f
 This kind of fractal is commonly found in nature. What are some fractals that you have observed in nature? Have you ever seen fractals in art?
 
 # 🛠️ Usage
-Requirements
+Requirements:
 
 This program is written in C language for Linux distributions and thus needs the clang compiler and some standard C libraries to run.
 
