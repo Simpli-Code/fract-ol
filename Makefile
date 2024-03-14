@@ -62,7 +62,7 @@ clean:
 # Remove obj & exec files
 fclean:						clean
 							@$(RM) $(NAME)
-							@printf "${RED}and the Executable file${RST}\n"
+							@printf "${RED}and the Executable${RST}\n"
 
 # remove all & recompile
 re:							fclean all
