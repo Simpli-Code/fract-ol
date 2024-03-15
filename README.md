@@ -60,7 +60,11 @@ Makefile - contains instructions for compiling the program and testing it.
 USEFUL RESOURCES:
 
 https://theses.liacs.nl/pdf/2018-2019-JonckheereLSde.pdf
-https://acko.net/blog/how-to-fold-a-julia-fractal/
-https://harm-smits.github.io/42docs/
+
+https://acko.net/blog/how-to-fold-a-julia-fractal
+
+https://harm-smits.github.io/42docs
+
 https://en.wikipedia.org/wiki/Julia_set
-https://rgbacolorpicker.com/
+
+https://rgbacolorpicker.com
