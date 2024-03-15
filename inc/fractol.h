@@ -6,26 +6,40 @@
 /*   By: chruhin <chruhin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 06:42:56 by chruhin           #+#    #+#             */
-/*   Updated: 2024/03/11 08:01:57 by chruhin          ###   ########.fr       */
+/*   Updated: 2024/03/15 08:34:12 by chruhin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
-# include <mlx.h>
 # include <stdlib.h>
 # include <unistd.h>
 
-# define WIDTH		810
-# define HIGHT		800
-# define ZOOM_FACT	0.08
-# define MIN_ZOOM 	0.001
-# define MAX_ZOOM	15.0
-# define MOUSE_UP	4
-# define MOUSE_DOWN	5
-# define K_ESC		65307
-# define K_0		65438
+# ifdef __APPLE__
+#  include "../minilibx-mac/mlx.h"
+#  define WIDTH		810
+#  define HIGHT		800
+#  define ZOOM_FACT	0.08
+#  define MIN_ZOOM 	0.001
+#  define MAX_ZOOM	15.0
+#  define K_ESC		53
+#  define K_0		65438
+#  define MOUSE_UP	13
+#  define MOUSE_DWN	1
+# endif
+# ifdef __linux__
+#  include "../minilibx-linux/mlx.h"
+#  define WIDTH		810
+#  define HIGHT		800
+#  define ZOOM_FACT	0.08
+#  define MIN_ZOOM 	0.001
+#  define MAX_ZOOM	15.0
+#  define K_ESC		65307
+#  define K_0		65438
+#  define MOUSE_UP	4
+#  define MOUSE_DWN	5
+# endif
 
 typedef struct s_fractol
 {
