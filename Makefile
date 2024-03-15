@@ -6,7 +6,7 @@
 #    By: chruhin <chruhin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/19 11:45:40 by chruhin           #+#    #+#              #
-#    Updated: 2024/03/15 09:00:27 by chruhin          ###   ########.fr        #
+#    Updated: 2024/03/15 09:30:05 by chruhin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,13 +14,11 @@ UNAME_S := $(shell uname -s)
 
 ifeq ($(UNAME_S),Linux)
 	MLX				=		minilibx-linux
-	EVENT			=		src/event_linux.c
 	MLX_LIB			=		$(MLX)/libmlx.a
 	FLAGS			=		-lXext -lX11 ./$(MLX)/libmlx.a -I./$(MLX) -L./$(MLX) -lmlx
 endif
 ifeq ($(UNAME_S),Darwin)
 	MLX				=		minilibx-mac
-	EVENT			=		src/event_mac.c
 	FLAGS			=		-framework OpenGL -framework AppKit -I./$(MLX) -L./$(MLX) -lmlx
 endif
 
@@ -30,7 +28,7 @@ SRC_DIR				=		src
 OBJ_DIR				=		obj
 INC_DIR				=		inc
 
-DIRS				=		julia mandelbrot utils main $(EVENT)
+DIRS				=		julia mandelbrot utils main
 SRCS				=		$(foreach dir,$(DIRS),$(filter %.c,$(shell find $(SRC_DIR)/$(dir) -type f)))
 
 OBJS				=		$(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
