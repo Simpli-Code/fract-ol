@@ -19,7 +19,7 @@ This kind of fractal is commonly found in nature. What are some fractals that yo
 # 🛠️ Usage
 Requirements:
 
-This program is written in C language for Linux distributions and thus needs the clang compiler and some standard C libraries to run.
+This program is written in C language for Linux distributions and Mac OS thus needs the clang compiler and some standard C libraries to run.
 
 Compiling the program
 
