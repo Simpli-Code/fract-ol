@@ -6,7 +6,7 @@
 /*   By: chruhin <chruhin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 18:53:41 by chruhin           #+#    #+#             */
-/*   Updated: 2023/08/02 13:55:41 by chruhin          ###   ########.fr       */
+/*   Updated: 2024/03/15 08:09:06 by chruhin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ int	handle_zoom(int keycode, int x, int y, t_fractol *m)
 {
 	(void)x;
 	(void)y;
-	if (keycode == MOUSE_DOWN)
+	if (keycode == MOUSE_DWN)
 		zoom_in(m);
 	if (keycode == MOUSE_UP)
 		zoom_out(m);
