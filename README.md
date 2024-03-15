@@ -56,3 +56,11 @@ $ ./fractol julia -0.835 0.2321
 📁 src: contains the source code of the program.
 
 Makefile - contains instructions for compiling the program and testing it.
+
+USEFUL RESOURCES:
+
+https://theses.liacs.nl/pdf/2018-2019-JonckheereLSde.pdf
+https://acko.net/blog/how-to-fold-a-julia-fractal/
+https://harm-smits.github.io/42docs/
+https://en.wikipedia.org/wiki/Julia_set
+https://rgbacolorpicker.com/
